@@ -20,7 +20,7 @@ before_install:
 - mkdir chromedriver
 - unzip chromedriver_linux64.zip -d chromedriver/
 - export PATH=$PATH:$PWD/chromedriver
-- export PYTHONPATH=$(pwd)/test_ui
+- export PYTHONPATH=$(pwd):$(pwd)/test_ui
 - python -c 'import sys; print(sys.path)'
 
 before_script:
