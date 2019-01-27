@@ -20,8 +20,6 @@ before_install:
 - mkdir chromedriver
 - unzip chromedriver_linux64.zip -d chromedriver/
 - export PATH=$PATH:$PWD/chromedriver
-- export PYTHONPATH=${PYTHONPATH}:~/test_ui/
-- echo $PYTHONPATH
 
 before_script:
 - export DISPLAY=:99.0
