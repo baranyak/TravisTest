@@ -1,4 +1,3 @@
 selenium
 requests
-locust
 pytest
