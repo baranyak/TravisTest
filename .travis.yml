@@ -8,6 +8,7 @@ addons:
   apt:
     packages:
     - google-chrome-stable
+    - libev-dev
 branches:
   only:
     - master
