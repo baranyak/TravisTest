@@ -1,9 +1,3 @@
-import os
-import sys
-
-sys.path.append(os.path.dirname(__file__))
-sys.path.append(os.path.dirname(__file__) + '/../')
-
 import tests_ui.core.pages as pages
 from tests_ui.tests.base_test import BaseTest
 
