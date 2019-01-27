@@ -1,9 +1,12 @@
-import sys
 import os
+import sys
+
+sys.path.append(os.path.dirname(__file__) + '/../')
+
 import tests_ui.core.pages as pages
 from tests_ui.tests.base_test import BaseTest
 
-sys.path.append(os.path.dirname(__file__) + '/../')
+
 
 class TestHomePage(BaseTest):
     def test_elements_presence(self):
